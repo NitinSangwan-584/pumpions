@@ -1,0 +1,67 @@
+:root {
+    --font-family-primary: "Press Start 2P", system-ui;
+    --font-family-secondary: "Lexend Deca", sans-serif;
+    --font-family-3: "Reality Hyper";
+    --text-sm: 14px;
+    --text-md: 24px;
+    --text-lg: 48px;
+    --text-xl: 64px;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-yellow: #FFEC37;
+    --color-orange:#E8770E;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+.font-family-secondary {
+    font-family: var(--font-family-secondary);
+}
+
+.font-family-3 {
+    font-family: var(--font-family-3);
+}
+
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-yellow {
+    background-color: var(--color-yellow);
+}
+.color-orange {
+    background-color: var(--color-orange);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+
+
+@media (max-width:991.98px) {
+    :root {
+        --text-xl: 40px;
+    }
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --text-xl: 32px;
+        --text-lg: 32px;
+    }
+}
